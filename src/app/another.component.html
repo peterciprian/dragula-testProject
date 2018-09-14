@@ -1,0 +1,10 @@
+<div class="flex">
+  <div class="container" dragula="COPYABLE" [(dragulaModel)]="vamps">
+    <div class="vamp" *ngFor="let vamp of vamps">{{ vamp.name }} {{ vamp.id }}</div>
+  </div>
+
+  <div class="container" dragula="COPYABLE" [(dragulaModel)]="vamps2">
+    <div class="vamp" *ngFor="let vamp of vamps2">{{ vamp.name }} {{ vamp.id }}</div>
+  </div>
+
+</div>

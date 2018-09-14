@@ -1,0 +1,5 @@
+<h1>Hello {{name}}!</h1>
+<hr>
+<div class="copyTo" dragula="COPYABLE" [(dragulaModel)]="vamps3">
+  <div class="vamp" *ngFor="let vamp of vamps3">{{vamp}} {{ vamp.id }}</div>
+</div>
