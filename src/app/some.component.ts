@@ -28,12 +28,12 @@ export class SomeComponent {
   private vamps3 = [7];
 
   private uniq(a) {
-    var seen = {};
-    var out = [];
-    var len = a.length;
-    var j = 0;
-    for (var i = 0; i < len; i++) {
-      var item = a[i];
+    const seen = {};
+    const out = [];
+    let len = a.length;
+    let j = 0;
+    for (let i = 0; i < len; i++) {
+      let item = a[i];
       if (seen[item] !== 1) {
         seen[item] = 1;
         out[j++] = item;
